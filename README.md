@@ -1,6 +1,6 @@
 # MammoML---CNN-for-Risk-in-Cancer-
 Women Centric Problem Statement 
-
+![logo](https://github.com/ipsita-kar/MammoML---CNN-for-Risk-in-Cancer-/blob/main/POSTER.png)
 <ul>
   <li><strong>Breast cancer caused 670,000 deaths globally in 2022.</strong></li>
   <li><strong>Roughly half of all breast cancers occur in women with no specific risk factors other than sex and age.</strong></li>
@@ -17,21 +17,22 @@ Breast cancer cells begin inside the milk ducts and/or the milk-producing lobule
 
 Invasive cancers can spread to nearby lymph nodes or other organs (metastasize). Metastasis can be life-threatening and fatal.
 # MammoML: CNN for Cancer Screening
-![logo]()
+![logo](https://github.com/ipsita-kar/MammoML---CNN-for-Risk-in-Cancer-/blob/main/Raw%20Images.png)
 ## <h1>Overview</h1>
 This project involves developing a Convolutional Neural Network (CNN) model using ResNet50 for breast cancer detection from mammograms. The model is built on the CBIS-DDSM dataset, an updated and standardized version of the Digital Database for Screening Mammography (DDSM). The goal is to facilitate the development and testing of decision support systems in mammography.
-
+![logo](https://github.com/ipsita-kar/MammoML---CNN-for-Risk-in-Cancer-/blob/main/newplot.png)
 ## <h1>Mentor</h1>
 **Professor Dr. Sundarakumar K B**  
 **Dept. of Computer Science and Engineering**  
 **Shiv Nadar University, Chennai**
 alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+
 ## <h1>Project Details</h1>
 **Duration:** October 2023 - November 2023  
 **Model Used:** ResNet50  
 **Programming Language:** Python  
 **Libraries Used:** NumPy, Pandas, Matplotlib, Seaborn, TensorFlow  
-
+![logo](https://github.com/ipsita-kar/MammoML---CNN-for-Risk-in-Cancer-/blob/main/CBIS%20DDSM%20DATASET.png)
 ## <h1>Dataset: CBIS-DDSM</h1>
 The CBIS-DDSM (Curated Breast Imaging Subset of DDSM) dataset is a collection of medical images in JPEG format, derived from the original DDSM dataset, which was 163GB in size. The resolution of the images in the CBIS-DDSM dataset matches that of the original dataset. This dataset is focused primarily on breast imaging for mammography.
 ![logo](https://github.com/ipsita-kar/MammoML---CNN-for-Risk-in-Cancer-/blob/main/Data%20cleaning.png)
@@ -42,10 +43,10 @@ The CBIS-DDSM (Curated Breast Imaging Subset of DDSM) dataset is a collection of
 **Number of Images:** 10,239  
 **Modality:** MG (Mammography)  
 **Image Size:** 6 GB in JPEG format  
-
+![logo](https://github.com/ipsita-kar/MammoML---CNN-for-Risk-in-Cancer-/blob/main/Data%20cleaning.png)
 ### <h1>Dataset Description</h1>
 The CBIS-DDSM dataset is a well-curated subset of the DDSM data, selected by a trained mammographer. The images have been decompressed and converted to DICOM format, and the dataset includes updated ROI (Region of Interest) segmentation and bounding boxes, along with pathologic diagnosis information for training data.
-
+![logo](https://github.com/ipsita-kar/MammoML---CNN-for-Risk-in-Cancer-/blob/main/Data%20Visualizing.png)
 ### <h1>Challenges Addressed</h1>
 Researchers in the field of mammography have faced challenges in replicating research results due to the lack of a standardized evaluation dataset. Most computer-aided diagnosis (CADx) and detection (CADe) algorithms for breast cancer in mammography rely on private datasets or unspecified subsets of public databases. The CBIS-DDSM dataset addresses these challenges by providing a well-curated, publicly accessible, and standardized version of the DDSM for future CAD research in mammography.
 
