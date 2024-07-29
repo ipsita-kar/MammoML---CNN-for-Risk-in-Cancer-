@@ -59,7 +59,7 @@ The dataset's structure assigns multiple patient IDs to each participant, which 
 **1)For calcification cancer, most cases are usually in the left breast.
 
 2)Calcification cancer has 45 types, the majority of which are PLEOMORPHIC.**
-
+![logo](https://github.com/ipsita-kar/MammoML---CNN-for-Risk-in-Cancer-/blob/main/image.png)
 TEST SET DATA 
 <h1>Testing the Model on MINI DDSM Dataset</h1>
 
@@ -113,7 +113,7 @@ else:
 1/1 [==============================] - 0s 28ms/step
 </code>
 </pre>
-![logo]()
+![logo](https://github.com/ipsita-kar/MammoML---CNN-for-Risk-in-Cancer-/blob/main/__results___73_1.png)
 ## <h1>Model Performance</h1>
 **Accuracy:** 96.8%  
 **Results:** The model accurately predicted cancerous vs. non-cancerous mammograms on the test set.
