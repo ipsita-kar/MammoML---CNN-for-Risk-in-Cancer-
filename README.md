@@ -1,12 +1,14 @@
 # MammoML---CNN-for-Risk-in-Cancer-
 Women Centric Problem Statement 
-Key facts
+
+**Key facts
 Breast cancer caused 670 000 deaths globally in 2022.
 Roughly half of all breast cancers occur in women with no specific risk factors other than sex and age.
 Breast cancer was the most common cancer in women in 157 countries out of 185 in 2022.
 Breast cancer occurs in every country in the world.
-Approximately 0.5–1% of breast cancers occur in men.
-Overview
+Approximately 0.5–1% of breast cancers occur in men.**
+
+_Overview_
 Breast cancer is a disease in which abnormal breast cells grow out of control and form tumours. If left unchecked, the tumours can spread throughout the body and become fatal.
 
 Breast cancer cells begin inside the milk ducts and/or the milk-producing lobules of the breast. The earliest form (in situ) is not life-threatening and can be detected in early stages. Cancer cells can spread into nearby breast tissue (invasion). This creates tumours that cause lumps or thickening. 
