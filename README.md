@@ -50,12 +50,5 @@ The dataset's structure assigns multiple patient IDs to each participant, which 
 
 ## <h1>Model Performance</h1>
 **Accuracy:** 96.8%  
-**Optimizer:** Outperformed the Adam optimizer  
 **Results:** The model accurately predicted cancerous vs. non-cancerous mammograms on the test set.
 
-## <h1>Usage</h1>
-To use this project, clone the repository and follow the instructions in the provided Jupyter notebooks. Ensure you have the required Python libraries installed.
-
-```bash
-git clone https://github.com/your-username/MammoML.git
-cd MammoML
