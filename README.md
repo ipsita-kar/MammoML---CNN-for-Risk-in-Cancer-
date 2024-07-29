@@ -32,7 +32,7 @@ alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" targ
 
 ## <h1>Dataset: CBIS-DDSM</h1>
 The CBIS-DDSM (Curated Breast Imaging Subset of DDSM) dataset is a collection of medical images in JPEG format, derived from the original DDSM dataset, which was 163GB in size. The resolution of the images in the CBIS-DDSM dataset matches that of the original dataset. This dataset is focused primarily on breast imaging for mammography.
-![logo]()
+![logo](https://github.com/ipsita-kar/MammoML---CNN-for-Risk-in-Cancer-/blob/main/Data%20cleaning.png)
 ### <h1>Key Dataset Statistics:</h1>
 **Number of Studies:** 6,775  
 **Number of Series:** 6,775  
