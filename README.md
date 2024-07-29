@@ -2,7 +2,7 @@
 
 ![logo](https://github.com/ipsita-kar/MammoML---CNN-for-Risk-in-Cancer-/blob/main/POSTER.png)
 <ul>
-**  KEY FACTS**
+KEY FACTS
   <li><strong>Breast cancer caused 670,000 deaths globally in 2022.</strong></li>
   <li><strong>Roughly half of all breast cancers occur in women with no specific risk factors other than sex and age.</strong></li>
   <li><strong>Breast cancer was the most common cancer in women in 157 countries out of 185 in 2022.</strong></li>
@@ -36,7 +36,7 @@ This project involves developing a Convolutional Neural Network (CNN) model usin
 ![logo](https://github.com/ipsita-kar/MammoML---CNN-for-Risk-in-Cancer-/blob/main/CBIS%20DDSM%20DATASET.png)
 ## <h1>Dataset: CBIS-DDSM</h1>
 The CBIS-DDSM (Curated Breast Imaging Subset of DDSM) dataset is a collection of medical images in JPEG format, derived from the original DDSM dataset, which was 163GB in size. The resolution of the images in the CBIS-DDSM dataset matches that of the original dataset. This dataset is focused primarily on breast imaging for mammography.
-![logo](https://github.com/ipsita-kar/MammoML---CNN-for-Risk-in-Cancer-/blob/main/Data%20cleaning.png)
+![logo]()
 ### <h1>Key Dataset Statistics:</h1>
 **Number of Studies:** 6,775  
 **Number of Series:** 6,775  
@@ -59,6 +59,61 @@ The dataset's structure assigns multiple patient IDs to each participant, which 
 **1)For calcification cancer, most cases are usually in the left breast.
 
 2)Calcification cancer has 45 types, the majority of which are PLEOMORPHIC.**
+
+TEST SET DATA 
+<h1>Testing the Model on MINI DDSM Dataset</h1>
+
+<pre>
+<code>
+# Directory containing the images
+imgs_dir = glob.glob('/kaggle/input/miniddsm2/MINI-DDSM-Complete-JPEG-8/Benign/**/*.jpeg', recursive=True)
+
+# Example image path
+image_path = '/kaggle/input/miniddsm2/MINI-DDSM-Complete-JPEG-8/Benign/0029/C_0029_1.LEFT_CC.jpg'
+
+# Define a function to load and preprocess an image
+def load_and_preprocess_image(image_path, target_size=(50, 50)):
+    try:
+        # Load and preprocess the image
+        img = cv2.imread(image_path)
+        img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)  # Convert BGR to RGB format
+        img = cv2.resize(img, target_size)  # Resize to your target size
+        img_array = img / 255.0  # Normalize pixel values
+
+        return img_array
+    except Exception as e:
+        print(f"Error processing {image_path}: {str(e)}")
+        return None
+
+# Load and preprocess the example image
+img_array = load_and_preprocess_image(image_path)
+
+if img_array is not None:
+    # Create a batch for prediction (even if it's a single image)
+    img_batch = np.expand_dims(img_array, axis=0)
+
+    # Make predictions
+    predictions = model.predict(img_batch)
+
+    # Assuming your model predicts binary probabilities, you can get the probability for "Cancer" class
+    cancer_probability = predictions[0][0]  # Assuming "Cancer" is the first class
+
+    # Get the predicted class label
+    predicted_class = "Cancer" if cancer_probability >= 0.5 else "Normal"
+
+    # Plot the image and display the predicted class and probability
+    plt.imshow(img)
+    plt.title(f'Predicted Class: {predicted_class}\nProbability of Cancer: {cancer_probability:.4f}')
+    plt.axis('off')
+    plt.show()
+else:
+    print("Image loading and preprocessing failed.")
+
+# Model prediction step
+1/1 [==============================] - 0s 28ms/step
+</code>
+</pre>
+![logo]()
 ## <h1>Model Performance</h1>
 **Accuracy:** 96.8%  
 **Results:** The model accurately predicted cancerous vs. non-cancerous mammograms on the test set.
