@@ -1,7 +1,8 @@
 # MammoML---CNN-for-Risk-in-Cancer-
-Women Centric Problem Statement 
+
 ![logo](https://github.com/ipsita-kar/MammoML---CNN-for-Risk-in-Cancer-/blob/main/POSTER.png)
 <ul>
+**  KEY FACTS**
   <li><strong>Breast cancer caused 670,000 deaths globally in 2022.</strong></li>
   <li><strong>Roughly half of all breast cancers occur in women with no specific risk factors other than sex and age.</strong></li>
   <li><strong>Breast cancer was the most common cancer in women in 157 countries out of 185 in 2022.</strong></li>
@@ -9,7 +10,7 @@ Women Centric Problem Statement
   <li><strong>Approximately 0.5–1% of breast cancers occur in men.</strong></li>
 </ul>
 
-
+![logo](https://github.com/ipsita-kar/MammoML---CNN-for-Risk-in-Cancer-/blob/main/FINAL.png)
 _Overview_
 Breast cancer is a disease in which abnormal breast cells grow out of control and form tumours. If left unchecked, the tumours can spread throughout the body and become fatal.
 
@@ -25,7 +26,7 @@ This project involves developing a Convolutional Neural Network (CNN) model usin
 **Professor Dr. Sundarakumar K B**  
 **Dept. of Computer Science and Engineering**  
 **Shiv Nadar University, Chennai**
-alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+</a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
 
 ## <h1>Project Details</h1>
 **Duration:** October 2023 - November 2023  
@@ -52,7 +53,12 @@ Researchers in the field of mammography have faced challenges in replicating res
 
 ### <h1>Important Note</h1>
 The dataset's structure assigns multiple patient IDs to each participant, which can be misleading. For instance, a participant may have 10 separate patient IDs, each containing information about different scans. Despite this, there are only 1,566 actual participants in the cohort.
+**RESULTS **
+![logo](https://github.com/ipsita-kar/MammoML---CNN-for-Risk-in-Cancer-/blob/main/RESULTTT.png)
 
+**1)For calcification cancer, most cases are usually in the left breast.
+
+2)Calcification cancer has 45 types, the majority of which are PLEOMORPHIC.**
 ## <h1>Model Performance</h1>
 **Accuracy:** 96.8%  
 **Results:** The model accurately predicted cancerous vs. non-cancerous mammograms on the test set.
